@@ -1,0 +1,21 @@
+{
+  "name": "green-forest-theme",
+  "displayName": "Green Forest Theme",
+  "description": "As if you were coding in mids of a forest...",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Green Forest",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Green Forest-color-theme.json"
+      }
+    ]
+  }
+}
