@@ -154,6 +154,7 @@
 		"menubar.selectionBackground": "#063545"
 	},
 	"tokenColors": [
+//////////GENERAL
 		{
 			"name": "Comment",
 			"scope": [
@@ -175,9 +176,57 @@
 				"foreground": "#91BDCC"
 			}
 		},
-		//JS
 		{
-			"name": "Variables Declaration Keys",
+			"name": "Operators",
+			"scope": [
+				"keyword.operator"
+			],
+			"settings": {
+				"foreground": "#CC8564",
+			}
+		},
+		{
+			"name": "Control Keywords",
+			"scope": [
+				"keyword.control",
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.separator",
+				"punctuation.terminator",
+				"punctuation.separator.continuation",
+				"punctuation.accessor"
+			],
+			"settings": {
+				"foreground": "#b0cAcE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Constants",
+			"scope": [
+				"constant.other.color",
+				"constant.numeric",
+				"constant.language",
+				"support.constant",
+				"constant.character",
+				"constant.escape",
+				"keyword.other.unit",
+				"keyword.other"
+			],
+			"settings": {
+				"foreground": "#D9BDB5",
+			}
+		},	
+//////////JS
+		{
+			"name": "Variables Declaration Keys JS",
 			"scope": [
 				"storage.type.js"
 			],
@@ -185,8 +234,264 @@
 				"foreground": "#5FA2D9",
 			}
 		},
+		{
+			"name": "Func Declaration Keys JS",
+			"scope": [
+				"storage.type.class.js",
+				"meta.definition.method.js",
+				"storage.type.function.js",
+				"punctuation.definition.parameters.begin.js",
+				"punctuation.definition.parameters.end.js"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",//"#5FA2D9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variables Func Defs JS",
+			"scope": [
+				"meta.definition.function.js",
+				"meta.definition.variable.js"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "This keyword",
+			"scope": [
+				"variable.language.this.js"
+			],
+			"settings": {
+				"foreground": "#64CCC2",
+			}
+		},
+		{
+			"name": "Variables Func Defs JS",
+			"scope": [
+				"entity.name.type.class.js",
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Strings JS",
+			"scope": [
+				"string.quoted.single.js",
+				"string.quoted.double.js",
+				"string.template.js"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Control Keywords JS",
+			"scope": [
+				"punctuation.definition.block.js",
+				"meta.brace.round.js"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+			}
+		},
+		{
+			"name": "Object Calls JS",
+			"scope": [
+				"variable.other.object.property.js",
+				"variable.other.object.js"
+				
+			],
+			"settings": {
+				"foreground": "#64CCC2",
+			}
+		},
+		{
+			"name": "Object Calls JS",
+			"scope": [
+				"variable.other.property.js",
+				"meta.function-call.js",
+				"support.variable.property.js"	
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "italic"
+			}
+		},
+//////////HTML
+		{
+			"name": "Tags HTML",
+			"scope": [
+				"entity.name.tag.html",
+			],
+			"settings": {
+				"foreground": "#CC8564",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "CSS HTML",
+			"scope": [
+				"source.css",
+				"string.quoted.double.html",
+				"string.quoted.single.html"
+			],
+			"settings": {
+				"foreground": "#49D1A6",
+			}
+		},
 		
-
+		{
+			"name": "Attributes HTML",
+			"scope": [
+				"entity.other.attribute-name.html"
+			],
+			"settings": {
+				"foreground": "#CC8564",
+			}
+		},
+//////////CSS
+		{
+			"name": "Properties CSS",
+			"scope": [
+				"entity.name.tag.css",
+				"support.type.property-name.media.css",
+				"support.type.property-name.css"
+			],
+			"settings": {
+				"foreground": "#91BDCC",
+			}
+		},
+		{
+			"name": "Class-Attributes CSS",
+			"scope": [
+				"entity.other.attribute-name.class.css"
+			],
+			"settings": {
+				"foreground": "#CC8564",
+			}
+		},
+		{
+			"name": "ID-Attributes CSS",
+			"scope": [
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Tag Names CSS",
+			"scope": [
+				"entity.name.tag.css",
+			],
+			"settings": {
+				"foreground": "#CC8564",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Functions CSS",
+			"scope": [
+				"support.function.url.css",
+				"support.function.calc.css",
+				"support.function.misc.css",
+				"support.function.transform.css"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Brackets CSS",
+			"scope": [
+				"punctuation.section.function.begin.bracket.round.css",
+				"punctuation.section.function.end.bracket.round.css",
+				"punctuation.definition.parameters.begin.bracket.round.css",
+				"punctuation.definition.parameters.end.bracket.round.css",
+				"punctuation.section.media.begin.bracket.curly.css",
+				"punctuation.section.media.end.bracket.curly.css",
+				"punctuation.section.property-list.begin.bracket.curly.css",
+				"punctuation.section.property-list.end.bracket.curly.css",
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				
+			}
+		},
+		{
+			"name": "Pseud Classes CSS",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-element.css"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+				"fontStyle": "underline"
+				
+			}
+		},
+//////////PHP Very basic for now :)
+		{
+			"name": "Variables Declaration Keys PHP",
+			"scope": [
+				"punctuation.definition.variable.php"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+			}
+		},
+		{
+			"name": "Func Declaration Keys JS",
+			"scope": [
+				"storage.type.class.php",
+				"storage.type.function.php",
+				"punctuation.definition.parameters.begin.bracket.round.php",
+				"punctuation.definition.parameters.end.bracket.round.php"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",//"#5FA2D9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Variables Func Defs PHP",
+			"scope": [
+				"entity.name.function.php",
+				"meta.definition.variable.php"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Strings PHP",
+			"scope": [
+				"string.quoted.single.php",
+				"string.quoted.double.php",
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Strings RegEx PHP",
+			"scope": [
+				"string.regexp.double-quoted.php",
+				"support.function.php"
+			],
+			"settings": {
+				"foreground": "#49D1A6",
+				"fontStyle": "bold"
+			}
+		},
+	
 		/*
 		{
 			"name": "Variables",
