@@ -28,9 +28,9 @@
 		"button.foreground": "#E6FCFA",
 		//"button.border": "#78F5E8",
 		"button.hoverBackground": "#64CCC2",
-		"button.separator": "#ff0000", //TBD
-		"button.secondaryBackground": "#ff0000", //TBD
-		"button.secondaryHoverBackground": "#ff00ff", //TBD
+		"button.separator": "#E6FCFA", //TBD
+		"button.secondaryBackground": "#B36A56", //TBD
+		"button.secondaryHoverBackground": "#E0A99A", //TBD
 		
 		//checkboxes
 		"checkbox.background": "#275666",
@@ -179,7 +179,8 @@
 		{
 			"name": "Operators",
 			"scope": [
-				"keyword.operator"
+				"keyword.operator",
+				"punctuation.separator.pointer-access"
 			],
 			"settings": {
 				"foreground": "#CC8564",
@@ -223,7 +224,18 @@
 			"settings": {
 				"foreground": "#D9BDB5",
 			}
-		},	
+		},
+		{
+			"name": "Variables Const Caps",
+			"scope": [
+				"constant.other.caps",
+				"variable.other.constant.property"
+			],
+			"settings": {
+				"foreground": "#c0dAdE",//CC78C4",
+				"fontStyle": "italic"
+			}
+		},
 //////////JS
 		{
 			"name": "Variables Declaration Keys JS",
@@ -238,6 +250,7 @@
 			"name": "Func Declaration Keys JS",
 			"scope": [
 				"storage.type.class.js",
+				"storage.modifier.js",
 				"meta.definition.method.js",
 				"storage.type.function.js",
 				"punctuation.definition.parameters.begin.js",
@@ -265,12 +278,14 @@
 			],
 			"settings": {
 				"foreground": "#64CCC2",
+				//"fontStyle": "bold"
 			}
 		},
 		{
-			"name": "Variables Func Defs JS",
+			"name": "Variables Class Defs JS",
 			"scope": [
 				"entity.name.type.class.js",
+				"entity.other.inherited-class.js"
 			],
 			"settings": {
 				"fontStyle": "underline"
@@ -302,11 +317,10 @@
 			"name": "Object Calls JS",
 			"scope": [
 				"variable.other.object.property.js",
-				"variable.other.object.js"
 				
 			],
 			"settings": {
-				"foreground": "#64CCC2",
+				"foreground": "#5FA2D9"//"#64CCC2",
 			}
 		},
 		{
@@ -321,6 +335,16 @@
 				"fontStyle": "italic"
 			}
 		},
+		/*{
+			"name": "Variables Const Caps Py",
+			"scope": [
+				"variable.other.constant.property.js",
+			],
+			"settings": {
+				"foreground": "#D9BDB5",
+				"fontStyle": "regular"
+			}
+		},/**/
 //////////HTML
 		{
 			"name": "Tags HTML",
@@ -400,7 +424,8 @@
 				"support.function.url.css",
 				"support.function.calc.css",
 				"support.function.misc.css",
-				"support.function.transform.css"
+				"support.function.transform.css",
+				"support.function.gradient.css"
 			],
 			"settings": {
 				"foreground": "#5FA2D9",
@@ -491,6 +516,281 @@
 				"fontStyle": "bold"
 			}
 		},
-
+//////////Python
+		{
+			"name": "Func Class Def Py",
+			"scope": [
+				"storage.type.class.python",
+				"storage.type.function.python",
+				"punctuation.definition.inheritance.begin.python",
+				"punctuation.definition.inheritance.end.python",
+				"punctuation.definition.parameters.begin.python",
+				"punctuation.definition.parameters.end.python"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Function and Object Calls Py",
+			"scope": [
+				//"variable.other.property.python",
+				//"meta.function-call.python",
+				//"support.variable.property.python",
+				"support.type.python",
+				"support.function.builtin.python",
+				"meta.member.access.python",
+				"meta.function-call.generic.python"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "italic"
+			}
+		},
+		
+		{
+			"name": "Punctuation and Param Reset Py",
+			"scope": [
+				"punctuation.definition.arguments.begin.python",
+				"punctuation.definition.arguments.end.python",
+				"meta.function-call.arguments.python"
+			],
+			"settings": {
+				"foreground": "#91BDCC",
+				"fontStyle": "regular"
+			}
+		},
+		{
+			"name": "Function Def Py",
+			"scope": [
+				"entity.name.function.python",
+				"support.function.magic.python"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Magic Function Def Py",
+			"scope": [
+				"support.function.magic.python"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Variables Class Defs JS",
+			"scope": [
+				"entity.name.type.class.python",
+				"entity.other.inherited-class.python"
+			],
+			"settings": {
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Obj Attributes Py",
+			"scope": [
+				"meta.attribute.python",
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "regular"
+			}
+		},
+		{
+			"name": "Self Keyword Py",
+			"scope": [
+				"variable.language.special.self.python",
+			],
+			"settings": {
+				//"foreground": "#0B6E8F",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Func Parameters Py",
+			"scope": [
+				"variable.parameter.function-call.python"
+			],
+			"settings": {
+				"foreground": "#0B6E8F",
+			}
+		},
+		{
+			"name": "Strings RegEx Py",
+			"scope": [
+				"string.quoted.docstring.multi.python",
+			],
+			"settings": {
+				"foreground": "#49D1A6",
+			}
+		},
+		{
+			"name": "Strings RegEx Py",
+			"scope": [
+				"string.regexp.double-quoted.python",
+				"string.quoted.single.python",
+				"constant.character.format.placeholder.other.python"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+			}
+		},
+		{
+			"name": "Punctuation Py",
+			"scope": [
+				"punctuation.section.function.begin.python"
+			],
+			"settings": {
+				"foreground": "#b0cAcE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Decorators Py",
+			"scope": [
+				"meta.function.decorator.python",
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "italic"
+			}
+		},
+//////////C and CPP
+		{
+			"name": "Variables Const Caps C/CPP",
+			"scope": [
+				"meta.preprocessor.macro.cpp",
+				"meta.preprocessor.macro.c",
+				"variable.other.enummember"
+			],
+			"settings": {
+				"foreground": "#c0dAdE",//CC78C4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Func Class Def C/CPP",
+			"scope": [
+				"entity.name.type.cpp",
+				"entity.name.type.c",
+				"entity.name.scope-resolution.cpp",
+				"entity.name.namespace.cpp"
+			],
+			"settings": {
+				"foreground": "#49D1A6",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Func Class Def C/CPP",
+			"scope": [
+				"storage.type.enum.cpp",
+				"storage.type.built-in.primitive.cpp",
+				"storage.type.class.cpp",
+				"storage.type.enum.enum-key.class.cpp",
+				"punctuation.section.parameters.begin.bracket.round.cpp",
+				"punctuation.section.parameters.end.bracket.round.cpp",
+				"storage.modifier.specifier.static.cpp",
+				"storage.type.struct.cpp",
+				"storage.modifier.specifier.const.cpp",
+				"storage.type.extern.cpp",
+				//C
+				"storage.type.struct.c",
+				"storage.type.enum.c",
+				"storage.type.built-in.primitive.c",
+				"punctuation.section.parameters.begin.bracket.round.c",
+				"punctuation.section.parameters.end.bracket.round.c",
+				"storage.modifier.c"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Strings C/CPP",
+			"scope": [
+				"string.quoted.double.cpp",
+				"string.quoted.single.cpp",
+				"string.quoted.double.include.cpp",
+				"string.quoted.single.include.cpp",
+				"string.quoted.other.lt-gt.include.cpp",
+				//C
+				"string.quoted.double.c",
+				"string.quoted.single.c",
+				"string.quoted.double.include.c",
+				"string.quoted.single.include.c",
+				"string.quoted.other.lt-gt.include.c"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+			}
+		},
+		{
+			"name": "Function and Object Calls C/CPP",
+			"scope": [
+				"entity.name.function.member.cpp",
+				"entity.name.function.call.cpp",
+				//C
+				"variable.other.member.c",
+				"entity.name.function.call.c"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Function Def C/CPP",
+			"scope": [
+				"entity.name.function.definition.cpp",
+				"entity.name.function.definition.c",
+				"entity.name.function.c"
+			],
+			"settings": {
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Func Comments C/CPP",
+			"scope": [
+				"storage.type.class.doxygen.cpp",
+				"storage.type.class.doxygen.c"
+			],
+			"settings": {
+				//"foreground": "#CCB350",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
+			"name": "Brackets C/CPP",
+			"scope": [
+				"punctuation.section.block.end.bracket.curly.cpp",
+				"punctuation.section.block.begin.bracket.curly.cpp",
+				"punctuation.section.parens.begin.bracket.round.cpp",
+				"punctuation.section.parens.end.bracket.round.cpp",
+				"punctuation.section.block.end.bracket.curly.function.definition.cpp",
+				"punctuation.section.block.begin.bracket.curly.function.definition.cpp",
+				"punctuation.section.block.end.bracket.curly.switch.cpp",
+				"punctuation.section.block.begin.bracket.curly.switch.cpp",
+				//C
+				"punctuation.section.block.end.bracket.curly.c",
+				"punctuation.section.block.begin.bracket.curly.c",
+				"punctuation.section.parens.begin.bracket.round.c",
+				"punctuation.section.parens.end.bracket.round.c",
+				"punctuation.section.block.end.bracket.curly.function.definition.c",
+				"punctuation.section.block.begin.bracket.curly.function.definition.c",
+				"punctuation.section.block.end.bracket.curly.switch.c",
+				"punctuation.section.block.begin.bracket.curly.switch.c"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+			}
+		},
 	]
 }
