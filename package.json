@@ -1,8 +1,21 @@
 {
   "name": "coral-reef-theme",
   "displayName": "Coral Reef Theme",
-  "description": "As if you were coding in mids of a forest...",
-  "version": "0.0.1",
+  "description": "As if you were coding in mids of a coral reef...",
+  "version": "1.0.0",
+  "publisher": "ThePelican",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaceinvader021/coral-reef-theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "the pelican",
+    "thepelican",
+    "the pelican dark",
+    "blue theme"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
