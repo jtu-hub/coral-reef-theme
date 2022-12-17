@@ -836,7 +836,7 @@
 		},/**/
 //////////MD
 		{
-			"name": "Brackets JSON",
+			"name": "H1 MD",
 			"scope": [
 				"heading.1.markdown"
 			],
@@ -846,7 +846,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "H2 MD",
 			"scope": [
 				"heading.2.markdown"
 			],
@@ -856,7 +856,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "H3 MD",
 			"scope": [
 				"heading.3.markdown",
 			],
@@ -865,7 +865,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "H4 MD",
 			"scope": [
 				"heading.4.markdown",
 				"heading.5.markdown"
@@ -875,7 +875,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "Bold MD",
 			"scope": [
 				"markup.bold.markdown",
 			],
@@ -885,7 +885,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "Code MD",
 			"scope": [
 				"markup.inline.raw.string.markdown",
 				"markup.fenced_code.block.markdown",
@@ -896,7 +896,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "Italic MD",
 			"scope": [
 				"markup.italic.markdown",
 				"string.other.link.description.markdown"
@@ -907,7 +907,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "Link MD",
 			"scope": [
 				"markup.underline.link"
 			],
@@ -916,7 +916,7 @@
 			}
 		},
 		{
-			"name": "Brackets JSON",
+			"name": "Inline IMG MD",
 			"scope": [
 				"punctuation.definition.link.description.begin.markdown",
 				"punctuation.definition.link.description.end.markdown",
