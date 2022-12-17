@@ -720,6 +720,7 @@
 				"string.quoted.double.include.cpp",
 				"string.quoted.single.include.cpp",
 				"string.quoted.other.lt-gt.include.cpp",
+				"entity.other.attribute-name.pragma.preprocessor.cpp",
 				//C
 				"string.quoted.double.c",
 				"string.quoted.single.c",
@@ -790,6 +791,139 @@
 			],
 			"settings": {
 				"foreground": "#CCB350",
+			}
+		},
+//////////JSON
+		{
+			"name": "Property Names JSON",
+			"scope": [
+				"support.type.property-name.json.comments"
+			],
+			"settings": {
+				"foreground": "#CC8564",
+			}
+		},
+		{
+			"name": "Property Strings Values JSON",
+			"scope": [
+				"string.quoted.double.json.comments"
+			],
+			"settings": {
+				"foreground": "#49D1A6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"punctuation.definition.dictionary.end.json.comments",
+				"punctuation.definition.dictionary.begin.json.comments",
+				"punctuation.separator.dictionary.pair.json.comments"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+			}
+		},
+		/*{
+			"name": "Square Brackets JSON",
+			"scope": [
+				"punctuation.definition.array.end.json.comments",
+				"punctuation.definition.array.begin.json.comments"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+			}
+		},/**/
+//////////MD
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"heading.1.markdown"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "bold underline"
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"heading.2.markdown"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"heading.3.markdown",
+			],
+			"settings": {
+				"foreground": "#CCB350",
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"heading.4.markdown",
+				"heading.5.markdown"
+			],
+			"settings": {
+				"foreground": "#c0dAdE",
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"markup.bold.markdown",
+			],
+			"settings": {
+				"foreground": "#c0dAdE",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"markup.inline.raw.string.markdown",
+				"markup.fenced_code.block.markdown",
+				"string.other.link.description.title.markdown"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"markup.italic.markdown",
+				"string.other.link.description.markdown"
+			],
+			"settings": {				
+				"foreground": "#c0dAdE",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"markup.underline.link"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+			}
+		},
+		{
+			"name": "Brackets JSON",
+			"scope": [
+				"punctuation.definition.link.description.begin.markdown",
+				"punctuation.definition.link.description.end.markdown",
+				"punctuation.definition.metadata.markdown"
+			],
+			"settings": {
+				"foreground": "#49D1A6",
 			}
 		},
 	]
