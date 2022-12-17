@@ -797,7 +797,7 @@
 		{
 			"name": "Property Names JSON",
 			"scope": [
-				"support.type.property-name.json.comments"
+				"support.type.property-name.json"
 			],
 			"settings": {
 				"foreground": "#CC8564",
@@ -806,7 +806,7 @@
 		{
 			"name": "Property Strings Values JSON",
 			"scope": [
-				"string.quoted.double.json.comments"
+				"string.quoted.double.json"
 			],
 			"settings": {
 				"foreground": "#49D1A6",
@@ -816,9 +816,9 @@
 		{
 			"name": "Brackets JSON",
 			"scope": [
-				"punctuation.definition.dictionary.end.json.comments",
-				"punctuation.definition.dictionary.begin.json.comments",
-				"punctuation.separator.dictionary.pair.json.comments"
+				"punctuation.definition.dictionary.end.json",
+				"punctuation.definition.dictionary.begin.json",
+				"punctuation.separator.dictionary.pair.json"
 			],
 			"settings": {
 				"foreground": "#CCB350",
