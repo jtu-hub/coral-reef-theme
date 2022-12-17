@@ -1,6 +1,6 @@
 {
-  "name": "green-forest-theme",
-  "displayName": "Green Forest Theme",
+  "name": "coral-reef-theme",
+  "displayName": "Coral Reef Theme",
   "description": "As if you were coding in mids of a forest...",
   "version": "0.0.1",
   "engines": {
@@ -12,9 +12,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Green Forest",
+        "label": "Coral Reef",
         "uiTheme": "vs-dark",
-        "path": "./themes/Green Forest-color-theme.json"
+        "path": "./themes/Coral Reef-color-theme.json"
       }
     ]
   }
