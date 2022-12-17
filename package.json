@@ -8,6 +8,7 @@
     "type": "git",
     "url": "https://github.com/spaceinvader021/coral-reef-theme"
   },
+  "icon": "resources/icon.png",
   "keywords": [
     "theme",
     "dark theme",
