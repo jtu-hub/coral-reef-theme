@@ -856,9 +856,10 @@
 			}
 		},
 		{
-			"name": "H3 MD",
+			"name": "H3 and Lists MD",
 			"scope": [
 				"heading.3.markdown",
+				"punctuation.definition.list.begin.markdown"
 			],
 			"settings": {
 				"foreground": "#CCB350",
