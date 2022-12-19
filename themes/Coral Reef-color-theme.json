@@ -219,7 +219,8 @@
 				"constant.character",
 				"constant.escape",
 				"keyword.other.unit",
-				"keyword.other"
+				"keyword.other",
+				"constant.other.timestamp"
 			],
 			"settings": {
 				"foreground": "#D9BDB5",
@@ -925,6 +926,101 @@
 			],
 			"settings": {
 				"foreground": "#49D1A6",
+			}
+		},
+//////////YAML
+		{
+			"name": "Item Marker YAML",
+			"scope": [
+				"punctuation.definition.block.sequence.item.yaml",
+				"punctuation.definition.mapping.begin.yaml",
+				"punctuation.definition.mapping.end.yaml"
+			],
+			"settings": {
+				"foreground": "#CCB350",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Anchor YAML",
+			"scope": [
+				"storage.type.tag-handle.yaml",
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "bold"
+			}
+		},/**/
+		{
+			"name": "Anchor YAML",
+			"scope": [
+				"entity.name.type.anchor.yaml",
+				"variable.other.alias.yaml"
+			],
+			"settings": {
+				"foreground": "#5FA2D9",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Tag YAML",
+			"scope": [
+				"entity.name.tag.yaml"
+			],
+			"settings": {
+				"foreground": "#CC8564",
+				"fontStyle": "regular"
+			}
+		},
+		{
+			"name": "Strings YAML",
+			"scope": [
+				"string.unquoted.plain.in.yaml",
+				"string.unquoted.plain.out.yaml",
+				//"string.unquoted.block.yaml",
+				"string.quoted.double.yaml",
+				"string.quoted.single.yaml"
+			],
+			"settings": {
+				"foreground": "#49D1A6",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Strings Block YAML",
+			"scope": [
+				//"string.unquoted.plain.in.yaml",
+				//"string.unquoted.plain.out.yaml",
+				"string.unquoted.block.yaml",
+				//"string.quoted.double.yaml",
+				//"string.quoted.single.yaml"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Start End of Doc and Bools YAML",
+			"scope": [
+				"entity.other.document.begin.yaml",
+				"entity.other.document.end.yaml",
+				"constant.language.boolean.yaml"
+			],
+			"settings": {
+				"foreground": "#CC78C4",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Property Strings Values JSON",
+			"scope": [
+				"punctuation.separator.key-value.mapping.yaml",
+				"punctuation.separator.sequence.yaml"
+			],
+			"settings": {
+				"foreground": "#b0cAcE",
+				"fontStyle": "bold"
 			}
 		},
 	]

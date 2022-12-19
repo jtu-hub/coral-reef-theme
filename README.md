@@ -14,7 +14,7 @@ but like the style, contact me and I will add it...  For now you have:
 * `HTML`
 * `CSS`
 * `C/C++`
-* `JSON`
+* `JSON` and `YAML`
 * `MarkDown`
 * `Python`
 
@@ -27,3 +27,4 @@ Here some snapshots:
 ![Python](resources/py.png "Python Preview")
 ![C/C++](resources/c_cpp.png "C/C++ Preview")
 ![Markdown](resources/md.png "Markdown Preview")
+![YAML](resources/yaml.png "YAML Preview")
