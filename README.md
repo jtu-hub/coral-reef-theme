@@ -19,7 +19,17 @@ but like the style, contact me and I will add it...  For now you have:
 * `Python`
 
 Its not full of different styles, like dark, light, muted, low/high contrast... 
-as it I don't need it.. sry :') 
+as it I don't need it.. sry :')
+
+## Suggestions?
+If you feel like there are languages missing or spotted a part which is not 
+coherent with the rest of the template let me know it. You can open an issue, 
+and I will try to resolve it ASAP. If there are some singular bugs or artefacts 
+with the existing color schemes you can always send me a screenshot to help me 
+understand the problem. It would be best with the inspected token visible (to 
+do so: `Ctrl`+`Shift`+`P`, the type `Inspect Editor Tokens and Scopes` and 
+click on the word, sentence or whatever in the editor which is not correctly 
+displayed and take a screenshot of it). Thanks :v:
 
 ## How Does It Look?
 Here some snapshots:
