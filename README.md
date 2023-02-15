@@ -27,7 +27,7 @@ coherent with the rest of the template let me know it. You can open an issue,
 and I will try to resolve it ASAP. If there are some singular bugs or artefacts 
 with the existing color schemes you can always send me a screenshot to help me 
 understand the problem. It would be best with the inspected token visible (to 
-do so: `Ctrl`+`Shift`+`P`, the type `Inspect Editor Tokens and Scopes` and 
+do so: `Ctrl`+`Shift`+`P`, then type `Inspect Editor Tokens and Scopes` and 
 click on the word, sentence or whatever in the editor which is not correctly 
 displayed and take a screenshot of it). Thanks :v:
 

@@ -1,4 +1,6 @@
 {
+	//Ref @
+	//https://vscode-docs1.readthedocs.io/en/latest/getstarted/theme-color-reference/
 	"name": "Coral Reef",
 	"colors": {
 		//base colors
@@ -145,6 +147,12 @@
 		"panel.background": "#02141A",
 		"panel.border": "#275666",
 
+		//widgets
+		"editorWidget.background":"#063545",
+		"editorWidget.border":"#275666",
+		//"editorSuggestWidget.background":"#ff0000",
+		//"editorHoverWidget.background":"#ff0000",
+		
 		//status bar (debug and so most lower bar)
 		"statusBar.background": "#275666",
 		

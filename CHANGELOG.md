@@ -7,8 +7,9 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how
 to structure this file.
 
 ## [Unreleased]
-
-- Not sure yet
+### Added:
+- Changelog... yeeh
+- Corrected widgetds background
 
 ## [1.3.0] - 2022-12-19
 ### Added:
