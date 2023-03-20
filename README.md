@@ -4,9 +4,10 @@
 This theme is just to satisfy my need for a somewhat _simplistic color scheeme_ 
 which does not look like a christmas tree. Not sure though if I achieved this 
 for everyone, but it is of my liking and **if you like it too, it makes me** 
-**happy** 
+**happy**
 :)
 
+Find it [here](https://marketplace.visualstudio.com/items?itemName=ThePelican.coral-reef-theme) on the Microsoft Marketplace
 ## Supported Languages:
 The supported languages are added and tweaked as I use them. If you miss one 
 but like the style, contact me and I will add it...  For now you have:

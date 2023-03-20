@@ -10,6 +10,7 @@ to structure this file.
 ### Added:
 - Changelog... yeeh
 - Corrected widgetds background
+- style Md inline link corrected
 
 ## [1.3.0] - 2022-12-19
 ### Added:

@@ -675,7 +675,7 @@
 			"scope": [
 				"meta.preprocessor.macro.cpp",
 				"meta.preprocessor.macro.c",
-				"variable.other.enummember"
+				"variable.other.enummember",
 			],
 			"settings": {
 				"foreground": "#c0dAdE",//CC78C4",
@@ -909,7 +909,8 @@
 			"name": "Italic MD",
 			"scope": [
 				"markup.italic.markdown",
-				"string.other.link.description.markdown"
+				"string.other.link.description.markdown",
+				"string.other.link.title.markdown"
 			],
 			"settings": {				
 				"foreground": "#c0dAdE",
@@ -930,7 +931,9 @@
 			"scope": [
 				"punctuation.definition.link.description.begin.markdown",
 				"punctuation.definition.link.description.end.markdown",
-				"punctuation.definition.metadata.markdown"
+				"punctuation.definition.metadata.markdown",
+				"punctuation.definition.link.title.begin.markdown",
+				"punctuation.definition.link.title.end.markdown"
 			],
 			"settings": {
 				"foreground": "#49D1A6",
@@ -1031,5 +1034,11 @@
 				"fontStyle": "bold"
 			}
 		},
-	]
+	],
+
+	
+	"semanticHighlighting": true,
+  	"semanticTokenColors": {
+   		 	"macro:c": "#ff0011"
+  	}
 }
