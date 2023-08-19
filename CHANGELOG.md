@@ -11,6 +11,7 @@ to structure this file.
 - Changelog... yeeh
 - Corrected widgetds background
 - style Md inline link corrected
+- textblockQuote corrected
 
 ## [1.3.0] - 2022-12-19
 ### Added:

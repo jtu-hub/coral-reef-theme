@@ -14,7 +14,8 @@
 		"icon.foreground": "#A0BABE",
 
 		//welcome page and stuff
-		"textBlockQuote.background": "#ff00ff",
+		"textBlockQuote.background": "#063545",
+		"textBlockQuote.border": "#A0BABE",
 		"textLink.activeForeground": "#64CCC2",//"#78F5E8",
 		"textLink.foreground": "#42A89E",
 		"textPreformat.foreground": "#E0A99A",
