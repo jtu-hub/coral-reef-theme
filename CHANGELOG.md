@@ -5,8 +5,13 @@ this file... if I do not forget about it :')
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 to structure this file.
+`vsce publish patch` for small changes
+`vsce publish minor` for bigger changes
+`vsce publish major` for substantial changes 
 
 ## [Unreleased]
+
+## [1.3.1]
 ### Added:
 - Changelog... yeeh
 - Corrected widgetds background
