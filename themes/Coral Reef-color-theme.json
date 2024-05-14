@@ -176,6 +176,16 @@
 			}
 		},
 		{
+			"name": "Comment Keywords",
+			"scope": [
+				"comment-keywords"
+			],
+			"settings": {
+				"foreground": "#c0dAdE",
+				"fontStyle": "bold"
+			}
+		},
+		{
 			"name": "Text",
 			"scope": [
 				"source",
@@ -352,14 +362,14 @@
 			],
 			"settings": {
 				"foreground": "#D9BDB5",
-				"fontStyle": "regular"
+				"fontStyle": ""
 			}
 		},/**/
-//////////HTML
+//////////HTML/XML
 		{
 			"name": "Tags HTML",
 			"scope": [
-				"entity.name.tag.html",
+				"entity.name.tag",
 			],
 			"settings": {
 				"foreground": "#CC8564",
@@ -370,8 +380,8 @@
 			"name": "CSS HTML",
 			"scope": [
 				"source.css",
-				"string.quoted.double.html",
-				"string.quoted.single.html"
+				"string.quoted.double",
+				"string.quoted.single"
 			],
 			"settings": {
 				"foreground": "#49D1A6",
@@ -381,10 +391,19 @@
 		{
 			"name": "Attributes HTML",
 			"scope": [
-				"entity.other.attribute-name.html"
+				"entity.other.attribute-name"
 			],
 			"settings": {
 				"foreground": "#CC8564",
+			}
+		},
+		{
+			"name": "Punctuation",
+			"scope": [
+				"punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#b0cAcE"
 			}
 		},
 //////////CSS
@@ -568,7 +587,7 @@
 			],
 			"settings": {
 				"foreground": "#91BDCC",
-				"fontStyle": "regular"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -608,7 +627,7 @@
 			],
 			"settings": {
 				"foreground": "#5FA2D9",
-				"fontStyle": "regular"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -674,8 +693,8 @@
 		{
 			"name": "Variables Const Caps C/CPP",
 			"scope": [
-				"meta.preprocessor.macro.cpp",
-				"meta.preprocessor.macro.c",
+				"meta.preprocessor.macro",
+				"meta.preprocessor.macro",
 				"variable.other.enummember",
 			],
 			"settings": {
@@ -981,7 +1000,7 @@
 			],
 			"settings": {
 				"foreground": "#CC8564",
-				"fontStyle": "regular"
+				"fontStyle": ""
 			}
 		},
 		{
@@ -1040,6 +1059,8 @@
 	
 	"semanticHighlighting": true,
   	"semanticTokenColors": {
-   		 	"macro:c": "#ff0011"
+			"macro": {"foreground": "#c0dAdE", "italic": true},
+			"macro:c": {"foreground": "#c0dAdE", "italic": true},
+
   	}
 }

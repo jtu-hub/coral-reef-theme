@@ -1,0 +1,23 @@
+{
+    "scopeName": "comment-keywords.injection",
+    "injectionSelector": ["L:comment"],
+    "patterns": [
+      {
+        "include": "#todo-keyword"
+      },
+      {
+        "include": "#note-keyword"
+      }
+    ],
+    "repository": {
+      "todo-keyword": {
+        "match": "(TODO|Todo)(\\(([^)]+)\\))?(:)?",
+        "name": "comment-keywords.todo"
+      },
+      "note-keyword": {
+        "match": "(NOTE|Note)(\\(([^)]+)\\))?(:)?",
+        "name": "comment-keywords.note"
+      }
+    }
+  }
+  

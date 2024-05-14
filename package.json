@@ -30,6 +30,13 @@
         "uiTheme": "vs-dark",
         "path": "./themes/Coral Reef-color-theme.json"
       }
+    ],
+    "grammars": [
+      {
+        "path": "./syntaxes/injection.json",
+        "scopeName": "comment-keywords.injection",
+        "injectTo": ["source.js","source.cpp","source.c","source.python"]
+      }
     ]
   }
 }
