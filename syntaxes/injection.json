@@ -7,6 +7,9 @@
       },
       {
         "include": "#note-keyword"
+      },
+      {
+        "include": "#tbd-keyword"
       }
     ],
     "repository": {
@@ -17,6 +20,10 @@
       "note-keyword": {
         "match": "(NOTE|Note)(\\(([^)]+)\\))?(:)?",
         "name": "comment-keywords.note"
+      },
+      "tbd-keyword": {
+        "match": "TBD(:)?",
+        "name": "comment-keywords.tbd"
       }
     }
   }

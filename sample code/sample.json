@@ -1,6 +1,4 @@
 {
-    //A comment even if deprecated
-    /*Same for block comments*/
     "quiz": {
         "sport": {
             "q1": {

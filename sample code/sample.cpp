@@ -24,7 +24,9 @@ class Base {
         Base(int a);
         virtual void print();
 
-        friend int friendFunc(Base b) {return b._property;}
+        static int friendFunc(Base b) {return b._property;}
+
+        virtual const int getProperty() const {return _property};
 };
 
 Base::Base(int a) {
@@ -41,8 +43,12 @@ private:
  
 public:
     Array(T arr[], int s);
+    
     void print() override;
 };
+
+
+
  
 template <typename T> Array<T>::Array(T arr[], int s) : Base(s) {
     ptr = new T[s];

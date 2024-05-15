@@ -181,8 +181,18 @@
 				"comment-keywords"
 			],
 			"settings": {
-				"foreground": "#c0dAdE",
+				"foreground": "#FFBF7De8",
 				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Note Comment Keywords",
+			"scope": [
+				"comment-keywords.note"
+			],
+			"settings": {
+				"foreground": "#0B6E8F",
+				"fontStyle": "bold underline"
 			}
 		},
 		{
@@ -221,7 +231,8 @@
 				"punctuation.separator",
 				"punctuation.terminator",
 				"punctuation.separator.continuation",
-				"punctuation.accessor"
+				"punctuation.accessor",
+				"punctuation.section"
 			],
 			"settings": {
 				"foreground": "#b0cAcE",
@@ -372,7 +383,7 @@
 				"entity.name.tag",
 			],
 			"settings": {
-				"foreground": "#CC8564",
+				"foreground": "#FFBF7De8",
 				"fontStyle": "bold"
 			}
 		},
@@ -384,7 +395,8 @@
 				"string.quoted.single"
 			],
 			"settings": {
-				"foreground": "#49D1A6",
+				"foreground": "#64CCC2",
+				//"fontStyle": "italic"
 			}
 		},
 		
@@ -394,7 +406,8 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#CC8564",
+				"foreground": "#E0A99A",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -727,7 +740,15 @@
 				"storage.modifier.specifier.static.cpp",
 				"storage.type.struct.cpp",
 				"storage.modifier.specifier.const.cpp",
+				"storage.modifier.const.cpp",
+				"storage.modifier.specifier.functional.post-parameters.override.cpp",
+				"storage.modifier.virtual",
+				"storage.modifier.static",
+				"storage.modifier.specifier.functional.post-parameters",
 				"storage.type.extern.cpp",
+				"storage.type.template.cpp",
+				"keyword.other.using.directive",
+				"storage.type.namespace.directive",
 				//C
 				"storage.type.struct.c",
 				"storage.type.enum.c",
@@ -829,7 +850,7 @@
 				"support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#CC8564",
+				"foreground": "#E0A99A",
 			}
 		},
 		{
@@ -838,7 +859,7 @@
 				"string.quoted.double.json"
 			],
 			"settings": {
-				"foreground": "#49D1A6",
+				"foreground": "#64CCC2",
 				"fontStyle": "italic"
 			}
 		},
@@ -999,7 +1020,7 @@
 				"entity.name.tag.yaml"
 			],
 			"settings": {
-				"foreground": "#CC8564",
+				"foreground": "#E0A99A",
 				"fontStyle": ""
 			}
 		},
@@ -1013,7 +1034,7 @@
 				"string.quoted.single.yaml"
 			],
 			"settings": {
-				"foreground": "#49D1A6",
+				"foreground": "#64CCC2",
 				"fontStyle": "italic"
 			}
 		},

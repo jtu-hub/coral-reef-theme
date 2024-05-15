@@ -11,6 +11,14 @@ to structure this file.
 
 ## [Unreleased]
 
+## [1.3.2] - 2024-05-15
+### Added:
+- NOTE, TBD (To Be Determined, not sure it is a common achronym, but I like to use it) and TODO highlight
+- Macros and constants are now displayed coherently in C/C++
+- Correct sorage modifiers: template, const, static, virtual, friend and override in C++ 
+- Rework HTML/YAML/JSON colors
+- XML color scheme
+
 ## [1.3.1]
 ### Added:
 - Changelog... yeeh

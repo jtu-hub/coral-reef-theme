@@ -9,19 +9,24 @@
  * \param to describe a parameter
  * TODO: a todo 
  * TODO(name): a todo set by someone
- * Note():
+ * TBD: this value needs to be determined
+ * TBD what to do
+ * Note: the note works as well in block comments
 */
+
+//NOTE: this is an anonimous note
+//NOTE(jtu): jtu left a note here
 
 //inline comment 
 //TODO: a todo
 //TODO(name): a todo set by someone
 
 //struct
-struct MyStruct {
+typedef struct MyStruct {
     double a;
     char a1 : 3;
     char a2 : 5;
-};
+} myStruct_t;
 
 enum TestEnum {
     ZERO = 0,
