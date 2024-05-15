@@ -12,7 +12,7 @@ Find it [here](https://marketplace.visualstudio.com/items?itemName=ThePelican.co
 The supported languages are added and tweaked as I use them. If you miss one 
 but like the style, contact me and I will add it...  For now you have:
 * `JavaScript`
-* `HTML`
+* `HTML` and `XML`
 * `CSS`
 * `C/C++`
 * `JSON` and `YAML`
@@ -34,8 +34,9 @@ displayed and take a screenshot of it). Thanks :v:
 
 ## How Does It Look?
 Here some snapshots:
-![HTML, CSS and JS](resources/html_css_js.png "HTML+CSS+JS Preview")
+![HTML, CSS and JS](resources/html.png "HTML+CSS+JS Preview")
+![JS](resources/js.png "JS Preview")
+![JSON](resources/json.png "JSON Preview")
 ![Python](resources/py.png "Python Preview")
-![C/C++](resources/c_cpp.png "C/C++ Preview")
+![C/C++](resources/cpp.png "C/C++ Preview")
 ![Markdown](resources/md.png "Markdown Preview")
-![YAML](resources/yaml.png "YAML Preview")
