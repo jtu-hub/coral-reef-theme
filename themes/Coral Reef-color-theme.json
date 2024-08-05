@@ -165,8 +165,12 @@
 		
 		//title bar (top part of window wiht File, Edit, ...)
 		"titleBar.activeBackground": "#1D414D",
+		"titleBar.inactiveBackground": "#1D414D",
+		"titleBar.activeForeground": "#8BA2A6",
+		"titleBar.inactiveForeground": "#8BA2A6",
 		"menu.background": "#063545",
-		"menubar.selectionBackground": "#063545"
+		"menubar.selectionBackground": "#063545",
+		"menubar.selectionForeground": "#E6FCFA"
 	},
 	"tokenColors": [
 //////////GENERAL
