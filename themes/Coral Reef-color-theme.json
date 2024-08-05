@@ -681,6 +681,7 @@
 			"name": "Strings RegEx Py",
 			"scope": [
 				"string.regexp.double-quoted.python",
+				"string.regexp.single-quoted.python",
 				"string.quoted.single.python",
 				"constant.character.format.placeholder.other.python"
 			],
@@ -744,6 +745,7 @@
 				"punctuation.section.parameters.begin.bracket.round.cpp",
 				"punctuation.section.parameters.end.bracket.round.cpp",
 				"storage.modifier.specifier.static.cpp",
+				"storage.modifier.specifier.volatile.cpp",
 				"storage.type.struct.cpp",
 				"storage.modifier.specifier.const.cpp",
 				"storage.modifier.const.cpp",
@@ -751,6 +753,7 @@
 				"storage.modifier.virtual",
 				"storage.modifier.static",
 				"storage.modifier.specifier.functional.post-parameters",
+				"storage.modifier.specifier.functional.pre-parameters",
 				"storage.type.extern.cpp",
 				"storage.type.template.cpp",
 				"keyword.other.using.directive",
