@@ -21,7 +21,7 @@ class Base {
     protected:
         int _property;
     public:
-        Base(int a);
+        virtual volatile Base(int a);
         virtual void print();
 
         static int friendFunc(Base b) {return b._property;}
