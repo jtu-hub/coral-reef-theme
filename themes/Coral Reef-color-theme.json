@@ -118,6 +118,12 @@
 		"editorGroup.emptyBackground": "#042B38",
 		"editorPane.background": "#031D26",
 		"editorGroupHeader.tabsBackground": "#042B38",
+		"editorLineNumber.foreground": "#0B6E8F",
+		"editorLineNumber.activeForeground": "#E6FCFA",
+		"editorGutter.background": "#042733",
+		//"editorLineNumber.border": "#042B38",
+		"editorRuler.foreground": "#0B6E8F",
+
 		
 		//sidebar (explorer git and stuff)
 		"sideBar.background": "#042B38",
