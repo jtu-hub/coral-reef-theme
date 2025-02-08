@@ -113,16 +113,25 @@
 		//"tree.tableOddRowsBackground": "#ff0000",
 
 		//editor (coding panel)
+		"editor.foreground": "#A0BABE",
 		"editor.background": "#042733",
 		"tab.inactiveBackground": "#063545",
 		"editorGroup.emptyBackground": "#042B38",
 		"editorPane.background": "#031D26",
 		"editorGroupHeader.tabsBackground": "#042B38",
-		"editorLineNumber.foreground": "#0B6E8F",
+		"editorLineNumber.foreground": "#275666",
 		"editorLineNumber.activeForeground": "#E6FCFA",
 		"editorGutter.background": "#042733",
 		//"editorLineNumber.border": "#042B38",
-		"editorRuler.foreground": "#0B6E8F",
+		"editorRuler.foreground": "#275666",
+		"editorIndentGuide.background1": "#275666",
+		"editorIndentGuide.activeBackground1": "#0B6E8F",
+		//"editorIndentGuide.activeBackground2": "#B36A56",
+		//"editorIndentGuide.activeBackground3": "#ff0000",
+		//"editorIndentGuide.activeBackground4": "#ff0000",
+		//"editorIndentGuide.activeBackground5": "#ff0000",
+		//"editorIndentGuide.activeBackground6": "#ff0000",
+		"editorBracketMatch.border": "#0B6E8F",
 
 		
 		//sidebar (explorer git and stuff)
